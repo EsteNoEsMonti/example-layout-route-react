@@ -1,0 +1,46 @@
+.siteLayoutContent {
+  min-height: 800px;
+  padding: 3%;
+  background: #fff;
+}
+.logo {
+  width: 250px;
+  height: 53px;
+}
+
+.action{
+  /*display: flex;
+  justify-content: flex-end;*/
+  
+}
+
+@media (max-width: 701px){
+  .action{
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.ant-row-rtl .logo {
+  margin: 16px 0 16px 24px;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
+
+.head{
+  height:2vh;
+}
+
+.footer{
+  text-align: center;
+}
+
+.submenu{
+  width: 70vh;
+}
+@media (max-height: 601px){
+  .submenu{
+    width: 100vh;
+  }
+}

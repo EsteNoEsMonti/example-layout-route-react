@@ -1,0 +1,45 @@
+#root {
+    height: 100%;
+}
+
+/* CSS PARA ANTD MODAL */
+
+.ant-modal {
+    top: 5% !important;
+}
+
+.ant-modal-confirm-content {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.ant-steps-item-title:hover {
+    color: #1890ff !important;
+}
+
+.ant-carousel .slick-dots li button {
+    background: #8a81b8 !important;
+    opacity: 0.4;
+    margin-bottom: -2em;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    opacity: 1;
+    background: #8a81b8 !important;
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #bfbfbf !important;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-tail::after {
+    background-color: #7ec1ff !important;
+}
+
+.ant-menu-title-content .ant-badge .ant-btn {
+    border: 1px solid white;
+}
+
+.ant-menu-title-content .ant-btn {
+    border: 1px solid white;
+}
